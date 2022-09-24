@@ -19,8 +19,7 @@ int main()
     cout << "enter the string";
     cin >> word;
 
-    if (to_upper_copy(word)) {
+    if (to_upper_copy(word) == word) {
         cout << "Uppercase" << endl;
     }
 }
-
